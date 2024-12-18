@@ -4,6 +4,7 @@ task.spawn(function()
     end
 
     task.wait(1.5)
+    print("TomTamX | Injected \n discord.gg/tomtamx")
 
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Name = "TomTamXNotification"
