@@ -194,3 +194,4 @@ task.spawn(function()
 
     task.wait(0.8)
     ScreenGui:Destroy()
+end)
