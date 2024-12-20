@@ -76,7 +76,7 @@ task.spawn(function()
     Subtitle.Parent = NotificationFrame
 
     local Content = Instance.new("TextLabel")
-    Content.Text = content or "Made by TomTamX Tech."
+    Content.Text = content or "Made by TomTamX Tech. \n API By Nova"
     Content.Size = UDim2.new(1, -30, 0, 20)
     Content.Position = UDim2.new(0, 15, 0, 60)
     Content.BackgroundTransparency = 1
