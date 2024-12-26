@@ -5,7 +5,7 @@ task.spawn(function()
 
     task.wait(1.5)
     print("TomTamX | Injected \n discord.gg/tomtamx")
-    print("Credit API By Nova")
+    print("Credit API By Arcadia")
 
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Name = "TomTamXNotification"
