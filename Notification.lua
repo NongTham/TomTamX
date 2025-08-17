@@ -45,12 +45,12 @@ task.spawn(function()
     Icon.Size = UDim2.new(0, 44, 0, 44)
     Icon.Position = UDim2.new(0, 3, 0, 12)
     Icon.BackgroundTransparency = 1
-    Icon.Image = "rbxassetid://135907402062123"
+    Icon.Image = "rbxassetid://80019916158199"
     Icon.ImageColor3 = Color3.fromRGB(114, 137, 218)
     Icon.Parent = NotificationFrame
 
     local Title = Instance.new("TextLabel")
-    Title.Text = title or "Vexel"
+    Title.Text = title or "Sometank"
     Title.Size = UDim2.new(1, -50, 0, 20)
     Title.Position = UDim2.new(0, 47, 0, 14)
     Title.BackgroundTransparency = 1
@@ -72,7 +72,7 @@ task.spawn(function()
     Subtitle.Parent = NotificationFrame
 
     local Content = Instance.new("TextLabel")
-    Content.Text = content or "Made by Vexel Tech"
+    Content.Text = content or "Made by TomTamX Tech"
     Content.Size = UDim2.new(1, -30, 0, 20)
     Content.Position = UDim2.new(0, 15, 0, 60)
     Content.BackgroundTransparency = 1
